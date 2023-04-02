@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel - Home</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header" data-aos="fade-down">
+        <section class="flex">
+            <a href="home.html" class="logo">Destinationville</a>
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="about.html">about</a>
+                <a href="contact.html">contact</a>
+                <a href="destinations.html">destinations</a>
+                <a href="tours.html">tours</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <div class="container home">
+        <section class="flex">
+            <form action="" method="post">
+                <h3>search your tour</h3>
+                <p>destination?</p>
+                <input type="text" name="loaction" required maxlength="50" placeholder="enter location" class="box">
+                <p>when?</p>
+                <input type="date" name="date" required class="box">
+                <p>number of guests?</p>
+                <input type="number" name="guests" required min="1" max="10" maxlength="2"
+                    placeholder="number of guests" class="box">
+                <input type="submit" value="search" name="search" class="btn">
+            </form>
+        </section>
+    </div>
+    <!-- home section ends -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="credit">
+            <p>
+                " © copyright 2023 by
+                <span>C Lee</span>
+                | all rights reserved! "
+            </p>
+            <div class="credit-socials">
+                <a href="#">
+                    <i class="fa fa-facebook-official"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-youtube-play"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- my custom js -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
